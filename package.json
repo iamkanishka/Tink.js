@@ -1,0 +1,37 @@
+{
+  "name": "tink-banking",
+  "version": "1.0.0",
+  "description": "Typescript/Javascript Wrapper for Tink APIs: Seamlessly integrate with Tink's open banking platform to access financial data, manage payments, and enable innovative financial solutions. This library provides a user-friendly interface to interact with Tink's comprehensive APIs, ensuring secure and efficient integration for Elixir-based applications.",
+  "main": "dist/index.js",
+  "bin": {
+    "tink-banking": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "bnp": "npm run build & npm publish",
+    "bns": "npm run build & npm run start"
+  },
+  "homepage": "https://github.com/iamkanishka/Tink.js/blob/master/readme.md",
+  "keywords": [
+    "tink-banking",
+    "typescript",
+    "javascript",
+    "npm",
+    "open banking"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamkanishka/Tink.js"
+  },
+  "author": "Kanishka Naik",
+  "bugs": {
+    "url": "https://github.com/iamkanishka/Tink.js/issues",
+    "email": "kanishkabc123@gmail.com"
+  },
+  "devDependencies": {
+    "@types/node": "^14.0.0",
+    "ts-node": "^10.0.0",
+    "typescript": "^4.0.0"
+  }
+}
